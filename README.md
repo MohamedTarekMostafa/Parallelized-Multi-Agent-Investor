@@ -1,4 +1,4 @@
-# ⚖️ 🤖 BullVBear: Agentic Financial Intelligence
+#  BullVBear: Agentic Financial Intelligence
 A Multi-Agent ecosystem where specialized Bulls and Bears clash to deliver data-driven investment verdicts.
 <img width="1600" height="640" alt="image" src="https://github.com/user-attachments/assets/74d24ae4-27bf-4fd6-b2bf-a18efcb554a8" />
 <img width="1600" height="480" alt="image" src="https://github.com/user-attachments/assets/c8ff3ab3-29f0-46f8-ab25-ffc90f5810f7" />
@@ -16,7 +16,7 @@ Most AI financial tools suffer from **Confirmation Bias**. This system solves th
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 The system is built on a **Directed Acyclic Graph (DAG)** using `LangGraph`:
 
 * **Parallel Execution**: Research and Data Fetching nodes run concurrently, drastically reducing latency.
@@ -25,7 +25,7 @@ The system is built on a **Directed Acyclic Graph (DAG)** using `LangGraph`:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Orchestration**: `LangGraph` (for complex agentic workflows).
 * **Brain**: `Llama-3.3-70B-Versatile` (via Groq for ultra-fast inference).
 * **Real-time Data**: `yfinance` (Market stats) & `Tavily Search` (Financial news).
@@ -42,6 +42,7 @@ The system is built on a **Directed Acyclic Graph (DAG)** using `LangGraph`:
 **Reason:** The system identifies that Intel's stable dividends and lower valuation (Quant data) align better with a **Retiree's Risk Profile**, proving the system doesn't just "chat"—it thinks and remembers.
 
 ---
+
 
 
 
