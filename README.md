@@ -14,7 +14,7 @@ The system runs three agents in **parallel** to ensure a balanced and thorough a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Tools:** * `TavilySearch` for real-time web intelligence.
     * `yfinance` for live stock market data.
@@ -59,4 +59,5 @@ The Debate: The Aggregator receives all reports, calls out biases, and generates
 ```
 ![WhatsApp Image 2026-01-07 at 11 55 10 PM](https://github.com/user-attachments/assets/1829bab6-4c6c-46a8-ae4a-c2f515fa871a)
 ![WhatsApp Image 2026-01-07 at 11 55 41 PM](https://github.com/user-attachments/assets/bb88d3a5-051e-4767-b0a0-1cb8e8ee4a78)
+
 
