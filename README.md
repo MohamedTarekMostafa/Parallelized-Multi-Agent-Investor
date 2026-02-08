@@ -18,6 +18,7 @@ The system runs three agents in **parallel** to ensure a balanced and thorough a
 
 * **Tools:** * `TavilySearch` for real-time web intelligence.
     * `yfinance` for live stock market data.
+* ** Backend : FastApi 
 * **UI:** [Streamlit](https://streamlit.io/) for an interactive dashboard.
 * **Observability:** [Langfuse](https://langfuse.com/) for tracing and monitoring agent performance.
 
@@ -48,7 +49,8 @@ streamlit run app.py
 
 tools.py: Contains the logic for web searching and financial data fetching.
 agent.py: Defines the LangGraph architecture, agent nodes, and the decision-making flow.\
-app.py: The frontend UI that manages session states and displays the debate.
+main.py : makes a backend api using FastApi 
+app.py: The frontend UI that manages session state and send request to fastapi 
 How it Works
 
 User Input: You enter a stock ticker (e.g., NVDA, TSLA).
@@ -59,6 +61,7 @@ The Debate: The Aggregator receives all reports, calls out biases, and generates
 ```
 ![WhatsApp Image 2026-01-07 at 11 55 10 PM](https://github.com/user-attachments/assets/1829bab6-4c6c-46a8-ae4a-c2f515fa871a)
 ![WhatsApp Image 2026-01-07 at 11 55 41 PM](https://github.com/user-attachments/assets/bb88d3a5-051e-4767-b0a0-1cb8e8ee4a78)
+
 
 
 
